@@ -1,0 +1,10 @@
+    static uint8_t numero0[13] = {1,2,3,8,13,18,23,22,21,16,11,6,1};
+    static uint8_t  numero1[5] = {3,8,13,18,23};
+    static uint8_t  numero2[11] = {1,2,3,8,13,12,11,16,21,22,23};
+    static uint8_t  numero3[11] = {1,2,3,8,13,12,11,18,23,22,21};
+    static uint8_t  numero4[9] = {1,6,11,12,13,8,3,18,23};
+    static uint8_t  numero5[11] = {3,2,1,6,11,12,13,18,23,22,21};
+    static uint8_t  numero6[12] = {3,2,1,6,11,16,21,22,23,18,13,12};
+    static uint8_t  numero7[7] = {1,2,3,8,13,18,23};
+    static uint8_t  numero8[13] = {1,2,3,8,13,18,23,22,21,16,11,6,12};
+    static uint8_t  numero9[12] = {12,11,6,1,2,3,8,13,18,23,22,21};

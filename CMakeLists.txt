@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(tarefa_u4c6_interfaces_seriais tarefa_u4c6_interfaces_seriais.c bibliotecas/ssd1306.c)
+add_executable(tarefa_u4c6_interfaces_seriais tarefa_u4c6_interfaces_seriais.c bibliotecas/ssd1306.c bibliotecas/matriz_led.c)
 
 pico_set_program_name(tarefa_u4c6_interfaces_seriais "tarefa_u4c6_interfaces_seriais")
 pico_set_program_version(tarefa_u4c6_interfaces_seriais "0.1")
