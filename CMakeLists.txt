@@ -44,9 +44,15 @@ pico_set_program_version(tarefa_u4c6_interfaces_seriais "0.1")
 pico_enable_stdio_uart(tarefa_u4c6_interfaces_seriais 1)
 pico_enable_stdio_usb(tarefa_u4c6_interfaces_seriais 1)
 
+pico_generate_pio_header(tarefa_u4c6_interfaces_seriais ${CMAKE_CURRENT_LIST_DIR}/matriz_led.pio)
+
 # Add the standard library to the build
 target_link_libraries(tarefa_u4c6_interfaces_seriais
-        pico_stdlib)
+        pico_stdlib
+        hardware_pio
+        hardware_adc
+        pico_bootrom
+        )
 
 # Add the standard include files to the build
 target_include_directories(tarefa_u4c6_interfaces_seriais PRIVATE
