@@ -35,7 +35,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(tarefa_u4c6_interfaces_seriais tarefa_u4c6_interfaces_seriais.c )
+add_executable(tarefa_u4c6_interfaces_seriais tarefa_u4c6_interfaces_seriais.c bibliotecas/ssd1306.c)
 
 pico_set_program_name(tarefa_u4c6_interfaces_seriais "tarefa_u4c6_interfaces_seriais")
 pico_set_program_version(tarefa_u4c6_interfaces_seriais "0.1")
@@ -61,7 +61,7 @@ target_include_directories(tarefa_u4c6_interfaces_seriais PRIVATE
 
 # Add any user requested libraries
 target_link_libraries(tarefa_u4c6_interfaces_seriais 
-        
+    hardware_i2c
         )
 
 pico_add_extra_outputs(tarefa_u4c6_interfaces_seriais)
