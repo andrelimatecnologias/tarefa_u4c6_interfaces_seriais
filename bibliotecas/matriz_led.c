@@ -30,7 +30,7 @@ void pintaFrameCompleto(){
 
 
 
-void ligaLEDsNaCor(int *leds, int quant, uint32_t cor){
+void ligaLEDsNaCor(uint8_t *leds, int quant, uint32_t cor){
   for(int i=0;i<quant;i++){
     cores[leds[i]] = cor;
   }

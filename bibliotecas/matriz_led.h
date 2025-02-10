@@ -33,7 +33,7 @@ uint32_t getCorRGB(double r, double g, double b);
 
 void pintaFrameCompleto();
 
-void ligaLEDsNaCor(int *leds, int quant, uint32_t cor);
+void ligaLEDsNaCor(uint8_t *leds, int quant, uint32_t cor);
 
 
 void ligaLEDsNasCores(int *leds, int quant, uint32_t *cores_esc);
