@@ -1,5 +1,5 @@
 
-# Semáforo utilizando temporizador periódico
+# Controle de Animações com protocolos de comunicação, UART e I2C
 
 Este repositório contém o projeto de controle de Animações em um display OLED bem como em uma matriz de LEDs 5x5 e um LED RGB.
 
